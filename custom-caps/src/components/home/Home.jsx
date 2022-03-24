@@ -13,9 +13,6 @@ const Home = () => {
             <div className="home">
                 <div className="container">
                     <Header/>
-                    {/*<Catalog caps={caps}/>*/}
-                    {/*<Catalog caps={caps}/>*/}
-                    {/*/!*<HomePage />*!/*/}
                     <Routes>
                         <Route path='/' element={<HomePage />} />
                         <Route path='/catalog' element={<Catalog caps={caps}/>}/>

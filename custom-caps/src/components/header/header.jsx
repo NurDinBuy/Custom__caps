@@ -1,9 +1,10 @@
 import React from 'react';
 import './header.css'
 import logo from '../../images/logo.svg'
-import {Link, Route, Routes} from 'react-router-dom'
-import HomePage from "../pages/home-page";
-import Catalog from "../pages/catalog";
+import loupe from '../../images/loupe.svg'
+import shop from '../../images/shopping.svg'
+import {Link} from 'react-router-dom'
+
 
 const Header = () => {
     return (
@@ -13,15 +14,16 @@ const Header = () => {
                     <Link to='/'><img src={logo}/></Link>
                 </div>
                 <div className="navBar">
-                    {/*<a href="">Каталог</a>*/}
-                    {/*<a href="">Бренды</a>*/}
-                    {/*<a href="">О Нас</a>*/}
-                    <Link to='/catalog'>Каталог</Link>
-                    {/*<Link to=''>Бренды</Link>*/}
-                    {/*<Link to=''>О Нас</Link>*/}
+                    <Link className="link" to='/catalog'>Каталог</Link>
+                    <Link className="link" to=''>Бренды</Link>
+                    <Link className="link" to=''>О Нас</Link>
                 </div>
+                <ul className='search-block'>
+                    <input className='search' type="text" />
+                    <img src={loupe} />
+                </ul>
+                <img className='shop' src={shop}/>
             </div>
-
         </>
     );
 };

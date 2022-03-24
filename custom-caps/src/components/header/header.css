@@ -2,11 +2,49 @@
     display: flex;
     align-items: center;
     height: 132px;
+    justify-content: space-around;
+    border-bottom: 1px solid #847E7E;
+    margin-bottom: 44px;
 }
 .logo {
     width: 98px;
     height: 84px;
 }
 .navBar {
-    width: 600px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    /*margin: 0 auto;*/
+}
+
+.search-block {
+    display: flex;
+    align-items: center;
+}
+.search-block img{
+    width: 20px;
+    height: 20px;
+    transform: translateX(-30px);
+    cursor: pointer;
+}
+.search {
+    width: 270px;
+    height: 40px;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+    outline: none;
+    color: #555252;
+    /*background: url("../../images/loupe.svg") no-repeat;*/
+}
+.link {
+    text-decoration: none;
+    color: #555252;
+    font-size: 18px;
+}
+.link:hover {
+    border-bottom: 2px solid #847E7E;
+}
+.shop {
+    cursor: pointer;
 }

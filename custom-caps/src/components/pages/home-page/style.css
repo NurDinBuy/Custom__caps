@@ -1,11 +1,11 @@
 .container {
   max-width: 1400px;
   margin: 0 auto;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 .banner {
   width: 100%;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   background: linear-gradient(90.87deg, #f8f7f7 0.69%, rgba(227, 227, 227, 0.56) 98.66%);
   margin-bottom: 20px;
 }
@@ -17,7 +17,7 @@
   color: #070d3f;
   font-size: 80px;
   text-transform: uppercase;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   height: 220px;
 }
 .main__banner__sub {
@@ -74,7 +74,7 @@ border-radius: 15px;
 .prew__block__price {
   width: 50%;
   height: 100%;
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
 }
 
 .prew__block__price {
