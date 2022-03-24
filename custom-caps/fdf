@@ -1,0 +1,78 @@
+[33mcommit 403b1cc4b75b342efe79d8734aef4f7502fe0c8a[m[33m ([m[1;36mHEAD -> [m[1;32mnurdin[m[33m)[m
+Merge: 0dc4b2b e0c2a38
+Author: NurDinBuy <nurik161103@gmail.com>
+Date:   Thu Mar 24 22:42:07 2022 +0600
+
+    Merge branch 'main' of https://github.com/AprioriFox/custom-caps into nurdin
+
+[33mcommit e0c2a38b24807b68b6efa97d994a239309fe1477[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Syimyk <syimyk310703@gmail.com>
+Date:   Thu Mar 24 22:36:54 2022 +0600
+
+    update app
+
+[33mcommit 5e280181b86379bc9f2a16c2ab7b2a86d4dff795[m
+Author: Syimyk <syimyk310703@gmail.com>
+Date:   Thu Mar 24 21:51:58 2022 +0600
+
+    update
+
+[33mcommit 8b703f012a14a85e5263286144aa3cc862197e09[m
+Author: Syimyk <syimyk310703@gmail.com>
+Date:   Thu Mar 24 21:08:26 2022 +0600
+
+    I have made few updates in main page
+
+[33mcommit a8b5deffbbaa7514c70977aa7e4047d58da258ab[m
+Author: Syimyk <syimyk310703@gmail.com>
+Date:   Thu Mar 24 17:32:42 2022 +0600
+
+    I have connected to back-end
+
+[33mcommit 0dc4b2bd38576e670ac5df5c103596a14854e5ba[m[33m ([m[1;31morigin/nurdin[m[33m)[m
+Author: NurDinBuy <nurik161103@gmail.com>
+Date:   Wed Mar 23 22:21:09 2022 +0600
+
+    adf
+
+[33mcommit d23b9fa4618c97c6768b016f3b2fa153751866fb[m
+Author: NurDinBuy <nurik161103@gmail.com>
+Date:   Wed Mar 23 22:02:40 2022 +0600
+
+    update
+
+[33mcommit 9433940ea589665965c1efd0bbddc0278b3b38e7[m[33m ([m[1;32mmain[m[33m)[m
+Author: NurDinBuy <nurik161103@gmail.com>
+Date:   Wed Mar 23 21:59:07 2022 +0600
+
+    new branch Nurdin
+
+[33mcommit 0e232494beb624b8e7bb9a264b5a713dc0b13c1b[m[33m ([m[1;31morigin/syimyk[m[33m)[m
+Author: Syimyk <syimyk310703@gmail.com>
+Date:   Wed Mar 23 17:38:58 2022 +0600
+
+    updated
+
+[33mcommit 1b765619bad54f53fd31c31b2a5b348b8cbbc33a[m
+Author: Syimyk <syimyk310703@gmail.com>
+Date:   Wed Mar 16 00:13:31 2022 +0600
+
+    I mave send request to redux and I have made page Catalog
+
+[33mcommit 45e6e829b98432f8af5b8d739a428fd6dead567c[m
+Author: apriorifox <apriorifox@gmail.com>
+Date:   Thu Mar 10 12:50:04 2022 +0600
+
+    create folders for components
+
+[33mcommit d75bf4a15e7b593e074d9f084526dbe097c0cdf5[m
+Author: apriorifox <apriorifox@gmail.com>
+Date:   Thu Mar 10 12:45:13 2022 +0600
+
+    create folders for components
+
+[33mcommit 77aac8a3cb9085717c44c6c0bc22a490847bc6cf[m
+Author: apriorifox <apriorifox@gmail.com>
+Date:   Thu Mar 10 12:31:47 2022 +0600
+
+    Initialize project using Create React App
