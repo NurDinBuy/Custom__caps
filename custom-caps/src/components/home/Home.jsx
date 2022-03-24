@@ -9,6 +9,7 @@ import Footer from "../footer";
 
 const Home = () => {
     const caps = useSelector(({caps}) => caps.items)
+    console.log(caps);
     return (
         <>
             <div className="home">
@@ -27,3 +28,4 @@ const Home = () => {
 }
 
 export default Home;
+

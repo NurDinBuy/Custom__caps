@@ -1,8 +1,8 @@
 import React from 'react';
 import './style.css';
-import {Link} from 'react-router-dom';
-import {useSelector} from 'react-redux';
-
+import { Link } from 'react-router-dom';
+import { useSelector } from 'react-redux'
+import Slider from './slider/slider';
 const HomePage = () => {
     const caps = useSelector(({caps}) => caps.items)
     console.log(caps)
@@ -29,17 +29,17 @@ const HomePage = () => {
 
             <div className="main__prew">
                 <div className="prew__blocks">
-                    {
-                        caps.map((data) => (
-                            <div className="prew__block">
-                                <div className="prew__block__img">
-                                    <img
-                                        src="https://www.freepnglogos.com/uploads/cap-png/cap-new-caps-png-download-for-picsart-png-download-nsb-7.png"
-                                        alt=""
-                                    />
-                                </div>
-                                <div className="prew__block__price">
-                                    <p className="price__yr">2021</p>
+                  {
+                      caps.map((data) => (
+                        <div key={data.id} className="prew__block">
+                        <div className="prew__block__img">
+                            <img
+                                src="https://www.freepnglogos.com/uploads/cap-png/cap-new-caps-png-download-for-picsart-png-download-nsb-7.png"
+                                alt=""
+                            />
+                        </div>
+                        <div className="prew__block__price">
+                            <p className="price__yr">2021</p>
 
                                     <p className="price__name">{data.brand}</p>
                                     <div className="price__sub">{data.name}</div>
@@ -49,8 +49,9 @@ const HomePage = () => {
                         ))
                     }
                 </div>
-            </div>
-        </div>
+            </div> 
+            <Slider />
+        </div>  
     );
 };
 

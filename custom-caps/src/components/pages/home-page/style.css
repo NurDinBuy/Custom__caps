@@ -11,7 +11,7 @@
 }
 .main__banner {
   width: 50%;
-  /*border: 1px solid blue;*/
+  /* border: 1px solid blue; */
 }
 .main__banner__title {
   color: #070d3f;
@@ -41,6 +41,7 @@
   background: #FFFFFF;
   display: flex;
   justify-content: space-around;
+  margin-bottom: 20px;
 /* ghg */
 /* height: 100px; */
 
@@ -52,16 +53,17 @@ border-radius: 15px;
   /* height: 200px; */
   display: flex;
   justify-content: space-around;
-  /*border: 1px solid red;*/
+  /* border: 1px solid red; */
   flex-wrap: wrap;
 
 }
 .prew__block {
   display: flex;
+  width: 23%;
+
   justify-content: space-around;
   background: #ffffff;
   /* ghg */
-  width: 23%;
 
   box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
