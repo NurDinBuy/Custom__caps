@@ -15,7 +15,7 @@
   color: #ffffff;
   font-size: 50px;
   width: 40%;
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
   position: absolute;
   top: 30%;
   left: 10%;
@@ -27,7 +27,7 @@
 .catalog__filter {
   width: 270px;
   height: 180px;
-  border: 1px solid #c4c4c4;
+  /*border: 1px solid #c4c4c4;*/
   box-sizing: border-box;
   float: right;
   margin-right: 40px;

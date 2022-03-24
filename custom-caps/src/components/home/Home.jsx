@@ -5,6 +5,7 @@ import HomePage from '../pages/home-page';
 import Header from "../header";
 import './home.css'
 import {Route, Routes} from "react-router-dom";
+import Footer from "../footer";
 
 const Home = () => {
     const caps = useSelector(({caps}) => caps.items)
@@ -16,8 +17,8 @@ const Home = () => {
                     <Routes>
                         <Route path='/' element={<HomePage />} />
                         <Route path='/catalog' element={<Catalog caps={caps}/>}/>
-
                     </Routes>
+                    <Footer/>
                 </div>
             </div>
 
