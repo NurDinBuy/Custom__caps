@@ -1,20 +1,30 @@
 import React from 'react';
 import {useSelector} from 'react-redux';
-import {Catalog} from '../catalog';
-import HomePage from '../home-page';
+import Catalog from "../pages/catalog";
+import HomePage from '../pages/home-page';
 import Header from "../header";
 import './home.css'
+import {Route, Routes} from "react-router-dom";
 
 const Home = () => {
     const caps = useSelector(({caps}) => caps.items)
     return (
-        <div className="home">
-            <div className="container">
-                <Header/>
-                <Catalog caps={caps}/>
-                {/*<HomePage />*/}
+        <>
+            <div className="home">
+                <div className="container">
+                    <Header/>
+                    {/*<Catalog caps={caps}/>*/}
+                    {/*<Catalog caps={caps}/>*/}
+                    {/*/!*<HomePage />*!/*/}
+                    <Routes>
+                        <Route path='/' element={<HomePage />} />
+                        <Route path='/catalog' element={<Catalog caps={caps}/>}/>
+
+                    </Routes>
+                </div>
             </div>
-        </div>
+
+        </>
     );
 }
 

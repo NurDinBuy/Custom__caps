@@ -1,5 +1,5 @@
 import React from 'react';
-import Cap from '../../assets/cap.svg';
+import Cap from '../../../images/cap.svg';
 const Catalogcards = ({ caps }) => {
     
     return (
